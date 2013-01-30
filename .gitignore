@@ -4,6 +4,7 @@ log/*.log
 tmp/**/*
 config/*.yml
 config/webistrano_config.rb
+config/unicorn.rb
 .DS_Store
 .rake_tasks~
 public/stylesheets/*.css

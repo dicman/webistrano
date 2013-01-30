@@ -11,6 +11,7 @@ class ProjectConfiguration < ConfigurationParameter
   # default templates for Projects
   def self.templates
     {
+      'tomcat'        => Webistrano::Template::Tomcat,
       'rails'         => Webistrano::Template::Rails,
       'mongrel_rails' => Webistrano::Template::MongrelRails,
       'thin_rails'    => Webistrano::Template::ThinRails,

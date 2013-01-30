@@ -1,6 +1,8 @@
 <div class="well sidebar-nav">
   <ul class="nav nav-list">
-    <li class="nav-header"><%= title %></li>
+    <li class="nav-header">
+      <%= link_to title, path %>
+    </li>
     <%= yield %>
   </ul>
 </div>
